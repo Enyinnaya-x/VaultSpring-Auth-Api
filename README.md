@@ -22,12 +22,7 @@ This is meant to be a practical starting template: add mailers, roles/permission
 1. Create a Postgres database (example: `mydatabase`).
 2. Configure your datasource.
 
-Your repo currently has DB credentials in `src/main/resources/application.properties`. For real projects, prefer a local override file and keep secrets out of git:
-
-- Create `src/main/resources/application-local.properties` (this repo’s `.gitignore` ignores it)
-- Put your real credentials there
-
-Example `application-local.properties`:
+Edit `src/main/resources/application.properties` with your Postgres connection details:
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/mydatabase
