@@ -1,4 +1,4 @@
-# VaultSpring Auth API
+# SpringKit
 
 A clean Spring Boot + PostgreSQL starter for building REST APIs with **user registration**, **login**, and **JWT-based auth** as your foundation.
 
